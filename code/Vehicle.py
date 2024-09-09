@@ -20,7 +20,7 @@ class Vehiculo:
         self.tipoCombustible = tipoCombustible
 
     # Getters
-    def GetMarca(self):
+    def getMarca(self):
         """
         Obtiene la marca del vehículo.
 
@@ -29,7 +29,7 @@ class Vehiculo:
         """
         return self.marca
 
-    def GetModelo(self):
+    def getModelo(self):
         """
         Obtiene el modelo del vehículo.
 
@@ -38,7 +38,7 @@ class Vehiculo:
         """
         return self.modelo
 
-    def GetAño(self):
+    def getAño(self):
         """
         Obtiene el año de fabricación del vehículo.
 
@@ -47,7 +47,7 @@ class Vehiculo:
         """
         return self.año
 
-    def GetKilometraje(self):
+    def getKilometraje(self):
         """
         Obtiene el kilometraje del vehículo.
 
@@ -56,7 +56,7 @@ class Vehiculo:
         """
         return self.kilometraje
 
-    def GetEstadoActual(self):
+    def getEstadoActual(self):
         """
         Obtiene el estado actual del vehículo.
 
@@ -65,7 +65,7 @@ class Vehiculo:
         """
         return self.estadoActual
 
-    def GetTipoCombustible(self):
+    def getTipoCombustible(self):
         """
         Obtiene el tipo de combustible que utiliza el vehículo.
 
@@ -75,7 +75,7 @@ class Vehiculo:
         return self.tipoCombustible
 
     # Setters
-    def SetMarca(self, marca):
+    def setMarca(self, marca):
         """
         Establece la marca del vehículo.
 
@@ -84,7 +84,7 @@ class Vehiculo:
         """
         self.marca = marca
 
-    def SetModelo(self, modelo):
+    def setModelo(self, modelo):
         """
         Establece el modelo del vehículo.
 
@@ -93,7 +93,7 @@ class Vehiculo:
         """
         self.modelo = modelo
 
-    def SetAño(self, año):
+    def setAño(self, año):
         """
         Establece el año de fabricación del vehículo.
 
@@ -102,7 +102,7 @@ class Vehiculo:
         """
         self.año = año
 
-    def SetKilometraje(self, kilometraje):
+    def setKilometraje(self, kilometraje):
         """
         Establece el kilometraje del vehículo.
 
@@ -111,7 +111,7 @@ class Vehiculo:
         """
         self.kilometraje = kilometraje
 
-    def SetEstadoActual(self, estadoActual):
+    def setEstadoActual(self, estadoActual):
         """
         Establece el estado actual del vehículo.
 
@@ -120,7 +120,7 @@ class Vehiculo:
         """
         self.estadoActual = estadoActual
 
-    def SetTipoCombustible(self, tipoCombustible):
+    def setTipoCombustible(self, tipoCombustible):
         """
         Establece el tipo de combustible que utiliza el vehículo.
 
