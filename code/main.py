@@ -1,4 +1,4 @@
-from vehiculo import Vehiculo
+from vehicle import Vehiculo
 
 class Main:
     def __init__(self):
@@ -18,7 +18,7 @@ class Main:
                 print(f"- {vehiculo.getMarca()} {vehiculo.getModelo()}")
         else:
             print(f"No se encontraron vehículos del año {año}.")
-
+            
     # Método para imprimir todos los vehículos registrados
     def mostrar_todos_los_vehiculos(self):
         if not self.vehiculos:
@@ -26,9 +26,13 @@ class Main:
         else:
             print("Lista de vehículos registrados:")
             for vehiculo in self.vehiculos:
-                print(f"Marca: {vehiculo.getMarca()}, Modelo: {vehiculo.getModelo()}, Año: {vehiculo.getAño()}, "
-                      f"Kilometraje: {vehiculo.getKilometraje()}, Estado: {vehiculo.getEstadoActual()}, "
-                      f"Tipo de Combustible: {vehiculo.getTipoCombustible()}")
+                print(f"Marca: {vehiculo.getMarca()}\n"
+                      f"Modelo: {vehiculo.getModelo()}\n"
+                      f"Año: {vehiculo.getAño()}\n"
+                      f"Kilometraje: {vehiculo.getKilometraje()}\n"
+                      f"Estado: {vehiculo.getEstadoActual()}\n"
+                      f"Tipo de Combustible: {vehiculo.getTipoCombustible()}\n"
+                      f"{'-'*30}")
 
 def main():
     sistema = Main()
